@@ -10,7 +10,8 @@ const ninthPlacePayout = document.querySelector('#top-ten tr:nth-child(9) td:nth
 const tenthPlacePayout = document.querySelector('#top-ten tr:nth-child(10) td:nth-child(2)')
 
 const twentyPlacePayout = document.querySelector('#on-the-tens tr td:nth-child(2)')
-const twentyPlace = document.getElementById('20th')
+
+
 const thirtyPlacePayout = document.querySelector('#on-the-tens tr:nth-child(2) td:nth-child(2)')
 const thirtyPlace = document.getElementById('30th')
 const fortyPlacePayout = document.querySelector('#on-the-tens tr:nth-child(3) td:nth-child(2)')
@@ -87,7 +88,7 @@ const payouts = {
 // Set default hunter entries value and calculate 
 let hEntries = 500;
 // Set default entry fee value and calculate 
-let entryFee = 125;
+let entryFee = 75;
 calcNewPayout(hEntries, entryFee)
 // Event listener for new Hunter Entries submissions
 entriesForm.addEventListener('submit', function(e){
